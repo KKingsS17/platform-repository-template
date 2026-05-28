@@ -1,0 +1,74 @@
+# Windows
+
+Thumbs.db
+Desktop.ini
+
+# Logs
+
+*.log
+
+# Environment Variables / Secrets
+
+.env
+.env.*
+secrets.json
+config.local.json
+
+# Certificates / Keys
+
+*.pfx
+*.cer
+*.key
+*.pem
+
+# PowerShell
+
+*.psd1.bak
+*.psm1.bak
+
+# PowerShell History
+
+*.history
+
+# Azure / Authentication Context
+
+.azure/
+
+# Archive Files
+
+*.zip
+*.7z
+
+# VS Code
+
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Temporary Files
+
+*.tmp
+*.temp
+
+# OS Generated Files
+
+.DS_Store
+
+# Git
+
+*.orig
+
+# Dependency / Module Caches
+
+modules/
+vendor/
+
+# Test Output
+
+TestResults/
+coverage/
+
+# Local Development Files
+
+local/
+sandbox/
