@@ -1,3 +1,12 @@
+---
+name: Documentation Update
+about: Request documentation improvements, updates, or corrections
+title: "[Documentation]: "
+labels: documentation
+assignees: ""
+
+---
+
 ## Summary
 
 [Provide a clear and concise description of the documentation update request.]
@@ -26,4 +35,4 @@ Examples:
 
 ## Additional Context
 
-[Include related Issues, screenshots, examples, references, or additional details if applicable.]
+[Include related Issues, screenshots, references, examples, or additional details if applicable.]

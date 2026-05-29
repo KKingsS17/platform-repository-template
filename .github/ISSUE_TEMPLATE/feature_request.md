@@ -1,3 +1,12 @@
+---
+name: Feature Request
+about: Request a new feature, enhancement, or operational improvement
+title: "[Feature]: "
+labels: enhancement, automation
+assignees: ""
+
+---
+
 ## Summary
 
 [Provide a clear and concise description of the requested feature or enhancement.]

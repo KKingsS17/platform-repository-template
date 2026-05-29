@@ -1,3 +1,12 @@
+---
+name: Bug Report
+about: Report an issue, unexpected behavior, or operational problem
+title: "[Bug]: "
+labels: bug
+assignees: ""
+
+---
+
 ## Summary
 
 [Provide a clear and concise description of the issue.]
