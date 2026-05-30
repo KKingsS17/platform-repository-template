@@ -1,0 +1,47 @@
+name: Repository Validation
+
+on:
+    push:
+        branches:
+            - main
+            - "feature/**"
+            - "bugfix/**"
+            - "docs/**"
+
+    pull_request:
+        branches:
+            - main
+
+jobs:
+    validate-repository:
+        name: Validate Repository
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout Repository
+              uses: actions/checkout@v4
+
+            - name: Validate Repository Structure
+              shell: pwsh
+              run: |
+                  $requiredDirectories = @(
+                    "docs",
+                    "scripts",
+                    "templates",
+                    "tests"
+                  )
+
+                  foreach ($directory in $requiredDirectories) {
+                    if (-not (Test-Path $directory)) {
+                      Write-Error "Missing required directory: $directory"
+                      exit 1
+                    }
+                  }
+
+                  Write-Host "Repository structure validation completed successfully."
+
+            - name: Validate PowerShell Availability
+              shell: pwsh
+              run: |
+                  $PSVersionTable.PSVersion
+                  Write-Host "PowerShell validation completed successfully."
