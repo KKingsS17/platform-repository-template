@@ -10,17 +10,17 @@
 
 Examples:
 
-* Closes #10
-* Related to #15
+- Closes #10
+- Related to #15
 
 ---
 
 ## Changes
 
-* Added:
-* Updated:
-* Removed:
-* Fixed:
+- Added:
+- Updated:
+- Removed:
+- Fixed:
 
 ---
 
@@ -30,15 +30,15 @@ Examples:
 
 Examples:
 
-* Manual testing completed
-* PowerShell script execution validated
-* GitHub Actions workflow passed
-* Documentation reviewed
+- Manual testing completed
+- PowerShell script execution validated
+- GitHub Actions workflow passed
+- Documentation reviewed
 
 ---
 
 ## Documentation
 
-* [ ] README updated if required
-* [ ] docs/ updated if required
-* [ ] CHANGELOG updated if required
+- [ ] README updated if required
+- [ ] docs/ updated if required
+- [ ] CHANGELOG updated if required

@@ -1,47 +1,49 @@
-# Platform Repository Template
+# Platform Engineering Foundation
 
 ## Overview
 
 This repository serves as the standardized foundation for future automation, platform engineering, and infrastructure projects.
 
-The goal of this template is to provide consistent engineering structure, documentation standards, Git workflows, and operational practices across all projects.
+The purpose of this template is to provide consistent repository structure, engineering workflows, documentation standards, CI validation, and operational governance across all future projects.
 
-## Purpose
-
-This template exists to:
-
-- Standardize repository structure
-- Improve maintainability and scalability
-- Encourage consistent documentation practices
-- Support reusable engineering workflows
-- Reduce repetitive project setup tasks
-- Establish clean and predictable development standards
+---
 
 ## Repository Standards
 
 Projects created from this template should follow:
 
-- Standardized directory structure
+- Standardized repository structure
 - Git-based development workflows
-- Pull request and branch-based development
+- Branch and pull request-based development
+- Repository governance standards
+- CI validation workflows
 - Clear documentation practices
-- Semantic versioning for releases
 - Descriptive naming conventions
 - Maintainable and reusable automation patterns
+- Semantic versioning for releases
 
-## Engineering Principles
+Detailed engineering standards and governance practices are documented in:
 
-This template follows the engineering principles defined in the Engineering Foundation document:
+[Engineering Standards](docs/engineering-standards.md)
 
-- Everything should be version controlled
-- Everything should be documented
-- Automation over repetitive manual work
-- Reusable over duplicated
-- Security by default
-- Simplicity before complexity
-- Standardization over improvisation
-- Build for maintainability first
-- Long-Term Goal
+---
+
+## Included Components
+
+This repository currently includes:
+
+- Repository structure baseline
+- README template
+- GitHub Issue templates
+- GitHub Pull Request template
+- Repository validation workflow
+- Standardized labels
+- Branch protection standards
+- Engineering standards documentation
+
+---
+
+## Long-Term Goal
 
 Over time, this repository will evolve into a reusable engineering baseline for future projects, including:
 
@@ -50,7 +52,7 @@ Over time, this repository will evolve into a reusable engineering baseline for 
 - GitHub workflows
 - CI/CD pipelines
 - Automation tooling
-- Issue and pull request templates
 - Development environment configuration
+- Operational governance standards
 
 The focus is to build clean, maintainable, and realistic engineering workflows inspired by modern platform engineering and DevOps practices.
