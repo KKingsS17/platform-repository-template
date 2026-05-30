@@ -25,11 +25,11 @@ assignees: ""
 
 Examples:
 
-* Missing implementation details
-* Outdated information
-* New feature added
-* Workflow changes
-* Improved clarity or organization
+- Missing implementation details
+- Outdated information
+- New feature added
+- Workflow changes
+- Improved clarity or organization
 
 ---
 
